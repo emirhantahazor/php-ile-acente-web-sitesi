@@ -1,5 +1,6 @@
 # php-ile-acente-web-sitesi
-Php ile yaptığım bir web sitesidir. Mobil - responsive uyumludur. Eksikleri vardır çünkü cms ile entegreli bir şekilde revize edeceğim. Görünüş olarak birkaç
+Php ile yaptığım bir web sitesidir. Mobil uyumludur. Eksikleri vardır. İçerikler boştur, çünkü
+CMS projemi de bitirince bir bütün halini alacaktır ve daha anlamlı olacaktır. Görünüş olarak birkaç
 görsel buraya bırakıyorum. Dilerseniz projemi indirip daha detaylı bakabilirsiniz.
 
 ANASAYFA:
