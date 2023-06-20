@@ -1,0 +1,114 @@
+nav .brand-logo {position: relative;display: inline-block;width: 9%;margin: -20px 0 0 35px;}
+nav{height: 69px;background-color: white;}
+nav ul a {color: black;display: block;padding: 0 15px;cursor: pointer;}
+nav ul li:hover,nav ul li.active {background-color: transparent !important;}
+.dropdown-content {margin-top: 0;margin-left: 0;top: 100% !important;}
+.owl-carousel {position: relative;overflow: hidden;}
+.owl-carousel .item {height: 64%;}
+.owl-carousel .item img {height: 100%;width: auto;object-fit: cover;}
+.owl-carousel .owl-dot {height: 20px;width: 20px;margin: 0 5px;background-color: #999;border-radius: 50%;}
+.owl-carousel .owl-dot.active {background-color: #333;}
+.owl-carousel .owl-dot:focus {outline: none;}
+.owl-carousel .owl-dot span {display: none;}
+.owl-carousel .owl-nav {position: absolute;top: 50%;transform: translateY(-50%);width: 100%;display: flex;justify-content: space-between;align-items: center;z-index: 1;}
+.owl-carousel .owl-nav .owl-prev,
+ .owl-carousel .owl-nav .owl-next {background-color: rgba(0, 0, 0, 0.5);color: #fff;padding: 10px;border-radius: 50%;font-size: 24px;transition: background-color 0.3s;}
+.owl-carousel .owl-nav .owl-prev:hover,
+ .owl-carousel .owl-nav .owl-next:hover {background-color: rgba(0, 0, 0, 0.8);}
+.owl-carousel .owl-nav .disabled {opacity: 0.5;pointer-events: none;}
+#facebook{width: 18px;margin-top: 22px; background-color: transparent !important;}
+#twitter{width: 18px;margin-top: 22px;}
+#instagram{width: 18px;margin-top: 22px;}
+#linkedin{width: 18px;margin-top: 22px;}
+.slider-container {height: 85px;overflow: hidden;margin-top: 5px;}
+.slider {display: flex;animation: slide 120s linear infinite; /* 60 saniyede bir dönen animasyon */}
+.slider img {height: 85px;margin-right: 20px;}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% + 20px));
+  }
+}
+.product-card {border-radius: 8px;overflow: hidden;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);transition: box-shadow 0.3s;}
+.product-card:hover {box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);}
+.product-card .card-image {height: 200px;background-size: cover;background-position: center;}
+.product-card .card-content {padding: 24px;}
+.product-card .card-title {font-size: 24px;font-weight: bold;margin-bottom: 10px;}
+.product-card .card-description {font-size: 16px;margin-bottom: 20px;}
+.detaylibilgi {font-size: 25px;margin: 40px 0px 0 390px;font-weight: bold;}
+#num{margin: 30px 0 0 304px;border-radius: 35px;}
+.btn-custom {background-color: white;color: black;transition: background-color 0.3s ease;}
+.btn-custom:hover,
+.btn-custom:focus {background-color: white !important;color: black !important;}
+.feature-container {background: linear-gradient(rgb(0 0 0 / 91%), rgb(0 0 0 / 80%)), url(../img/nedenbizisec.webp);background-size: cover;background-position: center;height: 60%;margin-bottom: 60px;}
+.feature-title {font-size: 24px;font-weight: bold;margin-top: 20px;}
+.feature-description {font-size: 18px;margin-bottom: 30px;}
+#nedensec{text-align: center;margin-top: 60px;font-weight: bold;padding-top: 70px;}
+i.large {font-size: 6rem;color: white;}
+#footerlogo{width: 115px;height: 95px;}
+#location {font-size: 30px;margin-top: 10px;margin-left: -37px;}
+.black-footer {background-color: #000;color: #fff;height: 40%;}
+.black-footer h5 {color: #fff;font-weight: bold;}
+.black-footer ul li a {color: #fff;}
+.black-footer p {color: #fff;}
+.black-footer .footer-logo {width: 100px;height: 100px;}
+.black-footer .social-icons li {display: inline-block;margin-right: 10px;}
+.black-footer .social-icons li:last-child {margin-right: 0;}
+.black-footer .social-icons li a {color: #fff;}
+.black-footer .social-icons li a:hover {color: #aaa;}
+.white-line {border-top: 1px solid #fff;width: 215px;margin: 0px 0 0 0px;}
+.yazi{margin-top:-32px;}
+#adres{font-size: 30px;margin-left: -37px; color: white;}
+.telefonfooter {margin: -27px 0px 0 7px;color: white; display: block;}
+#mail{font-size: 30px;margin: 17px 0px 0px -32px; }
+.mails{color: white; display: block; margin: -26px 0 0 9px;}
+.follow{margin: -67px 0 0 105px;}
+.media{padding: 0 0 0 0px; letter-spacing: 30px; padding-left: 78px;}
+.copyright{filter: opacity(0.5);padding-left: 552px;}
+.dropdown-content li>a, .dropdown-content li>span {font-size: 16px;color: black;display: block;line-height: 20px;padding: 14px 16px;}
+#banner {width: 100%;height: 40%;display: block;object-fit: cover; background-position: 50% 25%;}
+nav ul a:hover {background-color: rgba(0, 0, 0, 0) !important;}
+.sayfabaslik {margin: -160px 0 0 623px;display: inline-flex;font-size: 37px;color: white;font-weight: bold;}
+.menu-item {padding: 10px;cursor: pointer;}
+.menu-item:hover {background-color: #eee;}
+.menu-item.active {background-color:#1774bb;}
+.containerrs {display: flex;justify-content: space-between;align-items: flex-start;margin: 10px 0 15 23%;}
+.form-container {width: 400px; height:440px;background-color: #ffffff;border-radius: 5px;box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);padding: 20px;margin-right: 20px;    border: groove;}
+.contact-container {width: 400px; height:440px;background-color: #ffffff;border-radius: 5px;box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);padding: 20px;margin-right: 315px;border: groove;}
+.contact-container h4 {margin-bottom: 20px;}
+.contact-container .contact-info {display: flex;align-items: center;margin-bottom: 10px;}
+.contact-container .contact-info img {margin-right: 10px;width: 20px;}
+.aclass{padding: 8px;}
+#ulas{width: 214px;margin-left: 46px;}
+.card {margin: 0px 0 18px 11%;border-radius:15px}
+#buton{padding-left: 107px;}
+
+
+
+  @media screen and (max-width: 601px) {
+    body{position: unset;}
+    nav .brand-logo {width: 118px;margin: -10px 0 0 -73px;}
+    .detaylibilgi {font-size: 25px;font-weight: bold;margin-left: 67px;}
+    #num {border-radius: 35px;margin: 23 0 0 123px;}
+    .feature-container {background: linear-gradient(rgb(0 0 0 / 91%), rgb(0 0 0 / 80%)), url(../img/nedenbizisec.webp);background-size: cover;background-position: center;margin-bottom: 60px; height: auto;}
+    nav .sidenav-trigger i {height: 41px;line-height: 69px;color: black;font-weight: bold;margin-left: 20px;}
+    .black-footer{height: auto;}
+    .copyright {filter: opacity(0.5);padding-left: 63px;}
+    ul>li {letter-spacing: 1px;padding-top: 7px;list-style-type: none;}
+    .yazi {margin-top: -30px;margin-left: 26px;}
+    #location {font-size: 29px;margin-top: 19px;margin-left: -12px;}
+    #adres {font-size: 27px;margin-left: -10px;color: white;margin-top: 12px;}
+    .telefonfooter {margin: -26px 0px 0 35px;color: white;display: block;}
+    #mail {font-size: 30px;margin: 17px 0px 0px -5px;}
+    .mails {color: white;display: block;margin: -26px 0 0 40px;}
+    .sayfabaslik {margin: -135px 0 0 105px;display: inline-flex;font-size: 38px;color: white;font-weight: bold;}   
+    .menu-item {padding: 4px;cursor: pointer;}
+    .form-container {width: 400px;height: 440px;background-color: #ffffff;border-radius: 5px;box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);padding: 20px;border: groove;margin-left: -58px;}
+    .contact-container {width: 400px;height: 440px;background-color: #ffffff;border-radius: 5px;box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);padding: 20px;margin: 500px 0 0 -434px;border: groove;}
+    iframe{width: 100%;}
+    #buton {padding-left: 192px;}
+    .card {margin: 0px 0 18px 3%;border-radius: 15px;border: solid 1px;}
+
+  }
